@@ -18,4 +18,4 @@ ftpDeploy.deploy(config, function(err) {
   } else {
     console.log('Completed');
   }
-}
+});
