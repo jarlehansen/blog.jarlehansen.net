@@ -8,8 +8,8 @@ const config = {
   username: process.argv[3],
 	password: process.argv[4],
 	port: 21,
-	localRoot: __dirname + "/../dist",
-	remoteRoot: "/blog"
+	localRoot: `${__dirname}/../dist`,
+	remoteRoot: '/blog'
 }
 
 ftpDeploy.deploy(config, function(err) {
